@@ -42,11 +42,5 @@ songs = [
     {"title": "Billie Jean", "artist": "Michael Jackson",
      "description": "A dance-pop song with a memorable beat and Jackson’s iconic vocal performance.",
      "reason": "It’s known for its innovative production and Jackson’s impressive dance moves.",
-     "additional_info": "The song’s music video was groundbreaking and significantly influenced pop culture."},
-
-    {"title": "Shape of You", "artist": "Ed Sheeran",
-     "description": "A catchy pop song with a danceable beat and Sheeran’s signature style.",
-     "reason": "It’s one of the most popular songs of the past decade and showcases Sheeran’s talent for crafting hooks.",
-     "additional_info": "The song’s infectious rhythm and relatable lyrics contributed to its widespread success."}
-]
+     "additional_info": "The song’s music video was groundbreaking and significantly influenced pop culture."}]
 
