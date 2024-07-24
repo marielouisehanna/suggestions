@@ -1,0 +1,75 @@
+body {
+    background-color: #141414;
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+img {
+    width: 300px;
+    height:400px;
+  }
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #e50914;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    color: #fff;
+    margin: 10px;
+    width: 200px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: #f40612;
+    transform: scale(1.05);
+}
+
+.movie-btn {
+    background-color: #e50914;
+}
+
+.song-btn {
+    background-color: #db2828;
+}
+
+.show-btn {
+    background-color: #c81d25;
+}
+
+.book-btn {
+    background-color: #a81010;
+}
+
+.game-btn {
+    background-color: #7d0b0b;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}

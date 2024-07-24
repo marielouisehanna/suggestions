@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Choose Your Recommendation</h1>
+        <div class="buttons">
+            <form action="{{ url_for('suggest_movie') }}">
+                <button class="btn movie-btn">Movies 🎥</button>
+            </form>
+            <form action="{{ url_for('suggest_song') }}">
+                <button class="btn song-btn">Songs 🎶</button>
+            </form>
+            <form action="{{ url_for('suggest_show') }}">
+                <button class="btn show-btn">Shows 📺</button>
+            </form>
+            <form action="{{ url_for('suggest_book') }}">
+                <button class="btn book-btn">Books 📖</button>
+            </form>
+            <form action="{{ url_for('suggest_game') }}">
+                <button class="btn game-btn">Games 🎮</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
