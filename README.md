@@ -39,6 +39,6 @@ docker run --name suggestion-flask-app -p 5000:5000 suggestion-flask-app
 
 
 
-
+<br />
 🙅🏻‍♂️ UNFINISHED PROJECT  <br />
 🚩IN THE PROCESS
