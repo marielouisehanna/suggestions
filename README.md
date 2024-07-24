@@ -27,7 +27,7 @@ docker run --name suggestion-flask-app -p 5000:5000 suggestion-flask-app
     4. Push it  : ```docker push YOUR-USER-NAME/getting-started```
 
 
-## The Steps Needed To Deploy to Minikube:
+## The Steps Needed To Deploy to Minikube ⏹️:
 
 1. Download minikube
 2. Download Kubectl 
