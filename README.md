@@ -1,6 +1,6 @@
 # Suggestions Web-app 🕸 :
 
-## The Steps Needed To run the app in Docker 🐋:
+## The Steps Needed To run the app in Docker 🐋🐳:
 
 1. Download Docker Desktop
 2. Go to the app repertory
@@ -59,4 +59,5 @@ minikube ip
 
 <br />
 🙅🏻‍♂️ UNFINISHED PROJECT  <br />
-🚩IN THE PROCESS
+🚩IN THE PROCESS <br />
+✨ 
