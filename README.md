@@ -11,13 +11,11 @@ cd app
 
 ```
 docker build -t suggestion-flask-app .
-
 ```
 4. Run The Container : 
 
 ```
 docker run --name suggestion-flask-app -p 5000:5000 suggestion-flask-app
-
 ```
 5. To Test The flask-app : http://localhost:5000/
 
