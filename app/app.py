@@ -1,13 +1,13 @@
 from flask import Flask, render_template, redirect, url_for # type: ignore
 import random
-
-app = Flask(__name__)
-
 from books import books
 from games import games
 from movies import movies
 from shows import shows
 from songs import songs
+
+app = Flask(__name__)
+
 
 
 @app.route('/')

@@ -24,3 +24,5 @@ docker run --name suggestion-flask-app -p 5000:5000 suggestion-flask-app
 
 ## The Steps Needed To Deploy to Minikube:
 
+🙅🏻‍♂️ UNFINISHED PROJECT  <br />
+🚩IN THE PROCESS
