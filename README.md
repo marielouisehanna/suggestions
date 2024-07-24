@@ -31,7 +31,7 @@ docker run --name suggestion-flask-app -p 5000:5000 suggestion-flask-app
 
 1. Download minikube
 2. Download Kubectl 
-3. write the deployment and services yaml files
+3. Write the manifest.yaml files (deployment + services)
 4. Apply these deployments with kubectl:
 ```kubectl apply -f deployment.yaml```
 5. 
