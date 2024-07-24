@@ -1,0 +1,26 @@
+
+# this is not done yet
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: suggestion-flask-app
+  namespace: default
+  labels:
+    app: suggestion-flask-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: suggestion-flask-app
+  template:
+    metadata:
+      labels:
+        app: suggestion-flask-app
+    spec:
+      containers:
+      - name: suggestion-flask-app
+        image: marielouise1hanna/suggestion-flask-app:latest
+        namespace: default
+        ports:
+        - containerPort: 5000
