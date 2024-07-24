@@ -49,7 +49,8 @@ minikube service suggestion-flask-service
 kubectl get svc web-app-service
 minikube ip
 ```
-8. Open a web browser and navigate to http://<minikube-ip>:<nodeport>.
+8. Open a web browser and navigate to 
+```http://<minikube-ip>:<nodeport>```
 9. Testing Kubernetes Features: 
     1. Scale the application up and down : ```kubectl scale deployment web-app --replicas=4 ```
     2. Update the application by changing the Docker image version and reapplying the manifest.
