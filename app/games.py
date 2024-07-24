@@ -41,7 +41,6 @@ games = [
      "additional_info": "The remake offers new insights and details that enhance the original narrative.",
      "poster": "https://gh.cdn.sewest.net/assets/ident/pulse/a218ace0/FFVIIRINTERGRADE_Available_Now-1vq9ttoa5.jpg"
 },
-#here
 
     {"title": "The Legend of Zelda: Breath of the Wild",
      "description": "An open-world action-adventure game set in a vast, beautifully crafted fantasy world.",
@@ -63,7 +62,6 @@ games = [
      "additional_info": "The game’s dynamic quest system and moral choices offer a highly immersive experience.",
      "poster": "https://cloudbase.gg/wp-content/uploads/the-witcher-3-wild-hunt.jpg"
 },
-
 
     {"title": "God of War",
      "description": "An action-adventure game following Kratos as he navigates the world of Norse mythology.",

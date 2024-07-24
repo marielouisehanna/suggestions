@@ -39,11 +39,3 @@ def suggest_game():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
-"""
-adding from the web new ones + who added it?
-optimizing python lists?
-
-"""
