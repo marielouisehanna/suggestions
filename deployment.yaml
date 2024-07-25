@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: suggestion-flask-app
-        image: marielouise1hanna/suggestion-flask-app:latest
+        image: suggestions-flask-app:latest
         ports:
         - containerPort: 5000
