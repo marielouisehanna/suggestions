@@ -1,6 +1,3 @@
-
-# this is not done yet
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -21,6 +18,5 @@ spec:
       containers:
       - name: suggestion-flask-app
         image: marielouise1hanna/suggestion-flask-app:latest
-        namespace: default
         ports:
         - containerPort: 5000
