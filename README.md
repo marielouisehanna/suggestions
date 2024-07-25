@@ -56,12 +56,14 @@ minikube service suggestion-flask-app-service --url
     3. Use ConfigMaps and Secrets to manage application configuration.
     4. kubectl expose deployment suggestion-flask-app --type=LoadBalancer ?
 <br />
+
 Additional important commands to use:<br />
 ```
- kubectl get pods 
- kubectl get nodes 
- minikube stop 
- minikube delete
+kubectl get pods 
+kubectl get nodes 
+minikube stop 
+minikube delete
+
 ```
 
 🙅🏻‍♂️ UNFINISHED PROJECT  <br />
