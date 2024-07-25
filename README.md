@@ -63,7 +63,6 @@ kubectl get pods
 kubectl get nodes 
 minikube stop 
 minikube delete
-
 ```
 
 🙅🏻‍♂️ UNFINISHED PROJECT  <br />
