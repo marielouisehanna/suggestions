@@ -57,10 +57,18 @@ minikube service suggestion-flask-app-service --url
     4. kubectl expose deployment suggestion-flask-app --type=LoadBalancer ?
 <br />
 Additional important commands to use:<br />
-```kubectl get pods```<br />
-```kubectl get nodes```<br />
-```minikube stop```<br />
-```minikube delete```<br />
+ ``` 
+ kubectl get pods 
+ ``` <br />
+ ``` 
+ kubectl get nodes 
+ ``` <br />
+``` 
+minikube stop 
+``` <br />
+``` 
+minikube delete
+ ``` <br />
 <br />
 🙅🏻‍♂️ UNFINISHED PROJECT  <br />
 🚩IN THE PROCESS <br />
