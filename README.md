@@ -55,8 +55,12 @@ minikube service suggestion-flask-app-service --url
     2. Update the application by changing the Docker image version and reapplying the manifest.
     3. Use ConfigMaps and Secrets to manage application configuration.
     4. kubectl expose deployment suggestion-flask-app --type=LoadBalancer ?
-
-
+<br />
+Additional important commands to use:<br />
+```kubectl get pods```<br />
+```kubectl get nodes```<br />
+```minikube stop```<br />
+```minikube delete```<br />
 <br />
 🙅🏻‍♂️ UNFINISHED PROJECT  <br />
 🚩IN THE PROCESS <br />
