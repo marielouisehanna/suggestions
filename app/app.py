@@ -5,7 +5,7 @@ from games import games
 from movies import movies
 from shows import shows
 from songs import songs
-
+#import os, socket
 app = Flask(__name__)
 
 @app.route('/')

@@ -46,12 +46,17 @@ kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 ```
 6. Test the Application:
+
 ```
 minikube service suggestion-flask-app-service --url
 ```
+or <br /> 
+```
+minikube service suggestion-flask-app
+```
 7. Testing Kubernetes Features: 
     1. Scale the application up and down : <br />
-    ```kubectl scale deployment web-app --replicas=4 ```
+    ```kubectl scale deployment suggestion-flask-app --replicas=4 ```
     2. Update the application by changing the Docker image version and reapplying the manifest.
     3. Use ConfigMaps and Secrets to manage application configuration.
     4. kubectl expose deployment suggestion-flask-app --type=LoadBalancer ?
@@ -63,6 +68,10 @@ kubectl get pods
 kubectl get nodes 
 minikube stop 
 minikube delete
+```
+And to follow along with the logs :
+```
+kubectl logs -f -l app=suggestion-flask-app
 ```
 
 🙅🏻‍♂️ UNFINISHED PROJECT  <br />
