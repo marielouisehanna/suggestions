@@ -40,22 +40,21 @@ minikube start
 ```
 kubectl apply -f manifast.yaml
 ```
+or run:
+```
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+```
 6. Test the Application:
 ```
-minikube service suggestion-flask-service
+minikube service suggestion-flask-app-service --url
 ```
-7. Access the Application:
-```
-kubectl get svc web-app-service
-minikube ip
-```
-8. Open a web browser and navigate to 
-```http://<minikube-ip>:<nodeport>```
-9. Testing Kubernetes Features: 
-    1. Scale the application up and down : ```kubectl scale deployment web-app --replicas=4 ```
+7. Testing Kubernetes Features: 
+    1. Scale the application up and down : <br />
+    ```kubectl scale deployment web-app --replicas=4 ```
     2. Update the application by changing the Docker image version and reapplying the manifest.
     3. Use ConfigMaps and Secrets to manage application configuration.
-
+    4. kubectl expose deployment suggestion-flask-app --type=LoadBalancer ?
 
 
 <br />
