@@ -21,10 +21,10 @@ docker run --name suggestion-flask-app -p 5000:5000 suggestion-flask-app
 
 6. Upload the image to Docker Hub:
     1. In Docker Hub : Select the Create Repository button.
-    2. In the command line: ```docker build -t username/repository_name .```
+    2. In the command line: ``` docker build -t username/repository_name . ```
 
-    3. Sign in to Docker hub : ```docker login -u YOUR-USER-NAME```
-    4. Push it  : ```docker push YOUR-USER-NAME/getting-started```
+    3. Sign in to Docker hub : ``` docker login -u YOUR-USER-NAME ```
+    4. Push it  : ``` docker push YOUR-USER-NAME/getting-started ```
 
 
 ## The Steps Needed To Deploy to Minikube ⏹️:
@@ -56,7 +56,7 @@ minikube service suggestion-flask-app
 ```
 7. Testing Kubernetes Features: 
     1. Scale the application up and down : <br />
-    ```kubectl scale deployment suggestion-flask-app --replicas=4 ```
+    ``` kubectl scale deployment suggestion-flask-app --replicas=4 ```
     2. Update the application by changing the Docker image version and reapplying the manifest.
     3. Use ConfigMaps and Secrets to manage application configuration.
     4. kubectl expose deployment suggestion-flask-app --type=LoadBalancer ?
