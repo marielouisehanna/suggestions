@@ -73,6 +73,10 @@ And to follow along with the logs :
 ```
 kubectl logs -f -l app=suggestion-flask-app
 ```
+For the Nodeport:
+```
+kubectl get svc suggestion-flask-app-service
+```
 
 🙅🏻‍♂️ UNFINISHED PROJECT  <br />
 🚩IN THE PROCESS <br />
